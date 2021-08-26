@@ -1,7 +1,0 @@
-#Computers and Technology
-sum_comp=0
-for i in website_df['Category'].index:
-    if (website_df['Category'][i]=='Computers and Technology'):
-        a= len(website_df['cleaned_website_text'][i])
-        sum_comp=sum_comp+a
-print(Total number of words including all the Computers and Technology website: , sum_comp)
